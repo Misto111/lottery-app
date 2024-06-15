@@ -32,11 +32,13 @@ class Lottery extends Component {
                     key    = { index }
                 />
             );
+          
 
         } );
 
         return lotteryTickets;
     }
+   
 
     render() {
         return (

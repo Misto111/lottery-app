@@ -39,6 +39,7 @@ renderTryAgain() {
         return (
             <div style={{ backgroundColor: getrandomColor(), padding: 15}}>
                 { this.isWinning() ? this.renderWinning() : this.renderTryAgain()}
+                <button onClick={ this.props.actions.reset }>Ново теглене</button>
 
             </div>
         );
